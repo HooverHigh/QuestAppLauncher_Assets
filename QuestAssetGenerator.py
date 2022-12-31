@@ -1,11 +1,4 @@
-import argparse
-import datetime
-import os
-import requests
-import shutil
-import subprocess
-import sys
-import zipfile
+import argparse, datetime, os, requests, shutil, subprocess, sys, zipfile
 
 from github import Github  # pip install PyGithub
 
@@ -42,7 +35,7 @@ def main():
 
     # Instantiate github client
     g = Github(args.access_token)
-    repo = g.get_user().get_repo('QuestAppLauncher_Assets')
+    repo = g.get_user("HooverHigh").get_repo('QuestAppLauncher_Assets')
 
     # Set up temp dir
     folder_path_temp = os.path.abspath(TEMP_DIR);
