@@ -7,8 +7,8 @@ TEMP_DIR = '__temp__'
 LATEST_RELASE_DIR = 'latest_release'
 QALAG_OUTPUT_DIR = 'qalag'
 
-QALAG_EXE_PATH = 'bin\\qalag.exe'
-WINDIFF_EXE_PATH = 'bin\\windiff.exe'
+QALAG_EXE_PATH = 'bin\\QALAG.exe'
+WINDIFF_EXE_PATH = 'bin\\WinDiff.exe'
 
 QUEST_DIR = 'quest'
 ICONPACK_QUEST = 'iconpack_quest.zip'
