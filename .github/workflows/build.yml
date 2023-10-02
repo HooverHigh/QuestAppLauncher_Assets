@@ -12,6 +12,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v1
-      - name: script
+      - name: Install PyGithub
+        run: pip install PyGithub
+      - name: Package
         run: QuestAssetGenerator.py -a "${{ secrets.GITHUB_TOKEN }}"
         shell: python
