@@ -1,4 +1,4 @@
-name: run-script
+name: build-pack
 
 on:
   push:
